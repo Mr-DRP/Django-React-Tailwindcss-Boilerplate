@@ -1,0 +1,43 @@
+{
+  "name": "Django-React-Tailwindcss",
+  "version": "1.0.0",
+  "description": "Best framework comnbined",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mr-DRP/Django-React-Tailwindcss-Boilerplate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mr-DRP/Django-React-Tailwindcss-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/Mr-DRP/Django-React-Tailwindcss-Boilerplate#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "autoprefixer": "^10.3.7",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "css-loader": "^6.4.0",
+    "mini-css-extract-plugin": "^2.4.2",
+    "postcss": "^8.3.9",
+    "postcss-loader": "^6.2.0",
+    "style-loader": "^3.3.0",
+    "tailwindcss": "^2.2.17",
+    "webpack": "^5.58.2",
+    "webpack-cli": "^4.9.0"
+  },
+  "dependencies": {
+    "npm": "^8.1.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
